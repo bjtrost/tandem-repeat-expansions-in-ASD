@@ -1,4 +1,5 @@
 # tandem-repeat-expansions-in-ASD
+This repository contains code used to perform analyses done in the paper "Genome-wide detection of tandem DNA repeats expanded in autism".
 
 The following is a list of scripts meant to be invoked directly (as opposed to being called by other scripts):
 
