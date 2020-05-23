@@ -43,7 +43,7 @@ def repeat_unit_distribution(repeat_units):
 
     total_outputted = 0
     for repeat_unit in sorted(repeat_unit_counts, key=repeat_unit_counts.get, reverse=True):
-        if total_outputted > 20:
+        if total_outputted > 19:
             break
         percentage = "{:.2f}".format(repeat_unit_counts[repeat_unit] / total_count * 100)
         output_file.write(f"{repeat_unit}\t{repeat_unit_counts[repeat_unit]}\t{percentage}\n")
